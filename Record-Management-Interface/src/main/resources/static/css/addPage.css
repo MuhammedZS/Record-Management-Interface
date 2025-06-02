@@ -1,0 +1,71 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('/img/ForAdd.gif') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+}
+
+h1 {
+  color: #f7f0f0;
+  margin: 0;
+  text-shadow: 0 0 5px #f7f0f0, 0 0 20px #f7f0f0;
+  font-size: 4rem;
+}
+
+/* Form container */
+.form {
+  padding: 10px 40px;
+  border-radius: 12px;
+  color: white;
+  
+  text-shadow: 0 0 5px #cb6ce6, 0 0 20px #cb6ce6, 0 0 40px #cb6ce6;
+}
+
+/* Input styling */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select{
+  width: 30%;
+  padding: 10px 14px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #252525;
+  border-radius: 8px;
+  background-color: #252525;
+  color: white;
+  font-size: 18px;
+}
+
+/* Submit button */
+input[type="submit"], #but01, #but02 {
+	position: absolute;
+	height: 40px;
+	width: 140px;
+	color: white; 
+	background-color: #252525;
+	border-color: #252525;
+	border-width: 5px; 
+	border-radius: 10px;
+	box-shadow: 0 0 5px #f7f0f0, 0 0 20px #f7f0f0, 0 0 40px #f7f0f0;
+}
+
+input[type="submit"]:hover, #but01:hover, #but02:hover {
+  background-color: #cb6ce6;
+}
+
+input[type="submit"]{
+	margin-left: 0%;
+	margin-top: 0.75%;
+}
+
+#but01{
+	margin-left: 15%;	
+}
+#but02{
+	margin-left: 10%;
+	transform: translate(10%, 50%);
+}

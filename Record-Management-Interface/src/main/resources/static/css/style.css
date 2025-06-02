@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url('/img/NeonBG.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-y: hidden;
+}
+
+#but01{
+	position: absolute;
+	margin-left: 14.5%;
+	margin-top: 33.5%;
+	height: 40px;
+	width: 120px;
+	color: white; 
+	background-color: #252525;
+	border-color: #252525;
+	border-width: 5px; 
+	border-radius: 10px;
+}
+#but01:hover{
+	background-color: #cb6ce6;
+}
+
+#but02{
+	position: absolute;
+	margin-left: 24.5%;
+	margin-top: 33.5%;
+	height: 40px;
+	width: 140px;
+	color: white; 
+	background-color: #252525;
+	border-color: #252525;
+	border-width: 5px; 
+	border-radius: 10px;
+}
+#but02:hover{
+	background-color: #cb6ce6;
+}
+#venue{
+	position:absolute;
+	color: #cb6ce6;
+	font-size: 1.5rem;
+	margin-left: 14%;
+	margin-top: 37.5%;
+	line-height: 1.6;
+	text-shadow:
+	    0 0 5px #cb6ce6,
+	    0 0 20px #cb6ce6,
+	    0 0 40px #cb6ce6;
+	max-width: 600px;
+	text-align: center;
+}

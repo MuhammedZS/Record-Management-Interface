@@ -1,0 +1,61 @@
+body{
+	background-image: url('/img/viewBG.gif');
+	background-size: cover;
+	overflow-y: hidden;
+}
+
+h1 {
+  color: #f7f0f0;
+  margin: 0;
+  text-shadow: 0 0 5px #f7f0f0, 0 0 20px #f7f0f0;
+  font-size: 4rem;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  background-color: #252525;
+  color: white;
+}
+
+#but01{
+	position: absolute;
+	margin-left: 10.5%;
+	margin-top: 5%;
+	height: 40px;
+	width: 140px;
+	color: white; 
+	background-color: #252525;
+	border-color: #252525;
+	border-width: 5px; 
+	border-radius: 10px;
+	box-shadow: 0 0 5px #f7f0f0, 0 0 20px #f7f0f0, 0 0 40px #f7f0f0;
+}
+#but01:hover{
+	background-color: #cb6ce6;
+}
+
+#but02{
+	position: absolute;
+	margin-left: 24.5%;
+	margin-top: 5%;
+	height: 40px;
+	width: 140px;
+	color: white; 
+	background-color: #252525;
+	border-color: #252525;
+	border-width: 5px; 
+	border-radius: 10px;
+	box-shadow: 0 0 5px #f7f0f0, 0 0 20px #f7f0f0, 0 0 40px #f7f0f0;
+}
+#but02:hover{
+	background-color: #cb6ce6;
+}

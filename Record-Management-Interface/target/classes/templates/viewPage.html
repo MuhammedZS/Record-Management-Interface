@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmls:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>View Page</title>
+		<link rel="stylesheet" th:href="@{/css/viewPage.css}">
+	</head>
+	<body style = background-color:green>
+		<h1>View Tickets</h1>
+		
+		<table border="1">
+			<tr>
+				<td><b>First Name</td>
+				<td><b>Last Name</td>
+				<td><b>Email</td>
+				<td><b>Language Preference</td>
+				<td><b>First Timer</td>
+				<td><b>Date</td>
+				<td><b>Time</td>
+				<td><b>Ticket Class</td>
+				<td><b>Price</td>
+			<tr>
+			<tr th:each="san: ${take}">
+				<td th:text="${san.fname}"></td>
+				<td th:text="${san.lname}"></td>
+				<td th:text="${san.email}"></td>
+				<td th:text="${san.langPreference}"></td>
+				<td th:text="${san.firstTime}"></td>
+				<td th:text="${san.date}"></td>
+				<td th:text="${san.time}"></td>
+				<td th:text="${san.ticket}"></td>
+				<td th:text="${san.price}"></td>
+			<tr>	
+		</table>
+		
+		<a href='/add'><button id="but01">&lt; Back</button></a>
+		<a href='/'><button id="but02">Home</button></a>
+	</body>
+</html>
